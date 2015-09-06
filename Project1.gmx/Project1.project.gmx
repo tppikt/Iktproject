@@ -7,12 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Grass_Block</sprite>
-    <sprite>sprites\loliks</sprite>
+    <sprite>sprites\Dirt_Block</sprite>
+    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\Invisible</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Grass</object>
+    <object>objects\Dirt</object>
+    <object>objects\object2</object>
+    <object>objects\Invis</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
