@@ -6,10 +6,11 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite</sprite>
-    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\Grass_Block</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <help>
     <rtf>help.rtf</rtf>
