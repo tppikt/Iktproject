@@ -11,7 +11,9 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\Invisible</sprite>
     <sprite>sprites\Brick_Block</sprite>
-    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\Cloud_1</sprite>
+    <sprite>sprites\Cloud_2</sprite>
+    <sprite>sprites\ttt</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -23,6 +25,8 @@
     <object>objects\object2</object>
     <object>objects\Invis</object>
     <object>objects\Brick</object>
+    <object>objects\Cloud_dec1</object>
+    <object>objects\Cloud_dec2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
