@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,12 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_free(x,y+1))
-{
-gravity_direction = 270;
-gravity = 0;
-}
-
+            <string>gravity_direction=270
+if place_free(x,y+1)
+{gravity=.5}
+else
+{gravity=0}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Brick">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>vspeed = 0;
+x = xprevious;
+y = yprevious;
 </string>
           </argument>
         </arguments>
@@ -111,7 +135,7 @@ y = yprevious;
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="87">
+    <event eventtype="5" enumb="39">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -128,44 +152,15 @@ y = yprevious;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_free(x,y+1))
-{
-y -=50;
-}
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="5" enumb="68">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (place_free(x+4,y))
-{
-x +=4;
-image_xscale = 1;
+            <string>if (place_free(x+4,y)) { 
+ x += 4;
 }
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="65">
+    <event eventtype="5" enumb="37">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -182,11 +177,33 @@ image_xscale = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_free(x-4,y))
-{
-x -=4;
-image_xscale = -1;
+            <string>if (place_free(x-4,y)) { 
+ x -= 4;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="32">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if not place_free(x,y+1)
+{vspeed=-8}
 </string>
           </argument>
         </arguments>
