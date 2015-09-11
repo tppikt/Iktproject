@@ -8,12 +8,23 @@
   <sprites name="sprites">
     <sprite>sprites\Grass_Block</sprite>
     <sprite>sprites\Dirt_Block</sprite>
-    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\Hero_Left</sprite>
+    <sprite>sprites\Hero_Right</sprite>
     <sprite>sprites\Invisible</sprite>
     <sprite>sprites\Brick_Block</sprite>
     <sprite>sprites\Cloud_1</sprite>
     <sprite>sprites\Cloud_2</sprite>
     <sprite>sprites\ttt</sprite>
+    <sprite>sprites\Random_Block</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\Spiral_block</sprite>
+    <sprite>sprites\Shipy_block</sprite>
+    <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\Hero_Dead</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\sprite18</sprite>
+    <sprite>sprites\sprite19</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -22,14 +33,26 @@
   <objects name="objects">
     <object>objects\Grass</object>
     <object>objects\Dirt</object>
-    <object>objects\object2</object>
+    <object>objects\Hero</object>
     <object>objects\Invis</object>
     <object>objects\Brick</object>
     <object>objects\Cloud_dec1</object>
     <object>objects\Cloud_dec2</object>
+    <object>objects\Random</object>
+    <object>objects\Spiral</object>
+    <object>objects\Shipy</object>
+    <object>objects\Prop</object>
+    <object>objects\Die_Prop</object>
+    <object>objects\Lives_Dead</object>
+    <object>objects\Game_start_end</object>
+    <object>objects\Restart</object>
+    <object>objects\Gory</object>
+    <object>objects\Back</object>
+    <object>objects\Background</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\Died</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
