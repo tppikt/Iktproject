@@ -9,6 +9,7 @@
     <sprite>sprites\Grass_Block</sprite>
     <sprite>sprites\Dirt_Block</sprite>
     <sprite>sprites\Hero_Left</sprite>
+    <sprite>sprites\Hero_Jump</sprite>
     <sprite>sprites\Hero_Right</sprite>
     <sprite>sprites\Invisible</sprite>
     <sprite>sprites\Brick_Block</sprite>
@@ -22,37 +23,64 @@
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\Hero_Dead</sprite>
     <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\sprite25</sprite>
     <sprite>sprites\sprite17</sprite>
     <sprite>sprites\sprite18</sprite>
     <sprite>sprites\sprite19</sprite>
+    <sprites name="Button">
+      <sprite>sprites\StartB</sprite>
+      <sprite>sprites\Resume_B</sprite>
+      <sprite>sprites\Exit_B</sprite>
+    </sprites>
+    <sprite>sprites\Lose</sprite>
+    <sprite>sprites\sprite26</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\Grass</object>
-    <object>objects\Dirt</object>
-    <object>objects\Hero</object>
-    <object>objects\Invis</object>
-    <object>objects\Brick</object>
-    <object>objects\Cloud_dec1</object>
-    <object>objects\Cloud_dec2</object>
-    <object>objects\Random</object>
-    <object>objects\Spiral</object>
-    <object>objects\Shipy</object>
-    <object>objects\Prop</object>
-    <object>objects\Die_Prop</object>
-    <object>objects\Lives_Dead</object>
-    <object>objects\Game_start_end</object>
-    <object>objects\Restart</object>
-    <object>objects\Gory</object>
-    <object>objects\Back</object>
-    <object>objects\Background</object>
+    <objects name="Menu">
+      <objects name="Buttons">
+        <object>objects\Start</object>
+        <object>objects\Resume</object>
+        <object>objects\Exit</object>
+      </objects>
+      <objects name="Text">
+        <object>objects\LoseT</object>
+      </objects>
+    </objects>
+    <objects name="Decor">
+      <object>objects\Cloud_dec1</object>
+      <object>objects\Cloud_dec2</object>
+      <object>objects\Back</object>
+      <object>objects\Gory</object>
+      <object>objects\Dirt_Back</object>
+    </objects>
+    <objects name="Block">
+      <object>objects\Grass_Hide</object>
+      <object>objects\Dirt</object>
+      <object>objects\Invis</object>
+      <object>objects\Grass</object>
+      <object>objects\Brick</object>
+      <object>objects\Random</object>
+      <object>objects\Shipy</object>
+      <object>objects\Spiral</object>
+    </objects>
+    <objects name="Hero">
+      <object>objects\Hero</object>
+      <object>objects\Hero_Die_Anim</object>
+      <object>objects\Guy_health</object>
+      <object>objects\Jump</object>
+    </objects>
+    <objects name="Game_Code">
+      <object>objects\Game_start_end</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Main_Menu</room>
     <room>rooms\Died</room>
+    <room>rooms\Level_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

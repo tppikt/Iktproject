@@ -1170,9 +1170,9 @@
     <instance objName="Shipy" x="992" y="1760" name="inst_06905DB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Brick" x="2016" y="1696" name="inst_A308B013" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Brick" x="2176" y="1696" name="inst_ED8E828D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Prop" x="128" y="128" name="inst_4061534F" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="Guy_health" x="128" y="128" name="inst_4061534F" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="Back" x="256" y="1504" name="inst_4CBF11CE" locked="0" code="" scaleX="0.448000013828278" scaleY="0.594285726547241" colour="4294967295" rotation="0"/>
-    <instance objName="Background" x="-32" y="1760" name="inst_F2F4C76E" locked="0" code="" scaleX="2.84800004959106" scaleY="0.448000013828278" colour="4294967295" rotation="0"/>
+    <instance objName="Dirt_Back" x="-32" y="1760" name="inst_F2F4C76E" locked="0" code="" scaleX="2.84800004959106" scaleY="0.448000013828278" colour="4294967295" rotation="0"/>
     <instance objName="Random" x="2016" y="1568" name="inst_0168BEEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Random" x="2048" y="1568" name="inst_1634F6C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Random" x="2080" y="1568" name="inst_ED5FFCCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
