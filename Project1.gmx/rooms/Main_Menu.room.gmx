@@ -9,9 +9,9 @@
   <speed>30</speed>
   <persistent>0</persistent>
   <colour>12615680</colour>
-  <showcolour>0</showcolour>
+  <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>-1</enableViews>
+  <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,10 +51,48 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="GameName" x="96" y="64" name="inst_D115462D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Backg" x="0" y="0" name="inst_0AAB4BA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Start" x="320" y="352" name="inst_FE63D08C" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Resume" x="384" y="384" name="inst_65A5A3D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="0" y="736" name="inst_CD01FCFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="32" y="736" name="inst_D1DF9698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="64" y="736" name="inst_78AFCE1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="96" y="736" name="inst_9565E2D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="128" y="736" name="inst_E87B6EF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="160" y="736" name="inst_1215A5BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="192" y="736" name="inst_8C88B28B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="224" y="736" name="inst_112D917F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="256" y="736" name="inst_09956216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="288" y="736" name="inst_22321126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="320" y="736" name="inst_112FB88A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="352" y="736" name="inst_C7643584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="384" y="736" name="inst_1F7CF020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="416" y="736" name="inst_9C5F2DDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="448" y="736" name="inst_6521FA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="480" y="736" name="inst_A5E9EC5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="512" y="736" name="inst_EA1FF36E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="544" y="736" name="inst_43DC98CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="576" y="736" name="inst_1E9A1863" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="608" y="736" name="inst_DA2CD3B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="640" y="736" name="inst_231344E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="672" y="736" name="inst_DC8CBE21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="704" y="736" name="inst_2262C0B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="736" y="736" name="inst_6EE7334E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="768" y="736" name="inst_CEAC772B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="800" y="736" name="inst_1D7A1D81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="832" y="736" name="inst_9F2F17B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="864" y="736" name="inst_0556D013" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="896" y="736" name="inst_C647423B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="928" y="736" name="inst_927C7198" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="960" y="736" name="inst_9E698F20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Grass" x="992" y="736" name="inst_4B62DD0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec1" x="32" y="0" name="inst_B9D0CBA5" locked="0" code="" scaleX="3.73333334922791" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec1" x="256" y="96" name="inst_35539E95" locked="0" code="" scaleX="3.73333334922791" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec1" x="32" y="0" name="inst_971A6723" locked="0" code="" scaleX="3.73333334922791" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec1" x="480" y="0" name="inst_6ABB11A6" locked="0" code="" scaleX="3.73333334922791" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec1" x="256" y="96" name="inst_0B38A757" locked="0" code="" scaleX="3.73333334922791" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec1" x="832" y="0" name="inst_E454E861" locked="0" code="" scaleX="3.73333334922791" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Cloud_dec2" x="256" y="-32" name="inst_5E8DCF1E" locked="0" code="" scaleX="4.26666688919067" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Start" x="352" y="352" name="inst_99E2D7AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Exit" x="352" y="416" name="inst_8110F996" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Back" x="-160" y="256" name="inst_5B9DDBBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

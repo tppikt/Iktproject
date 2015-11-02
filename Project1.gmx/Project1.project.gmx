@@ -18,6 +18,7 @@
     <sprite>sprites\ttt</sprite>
     <sprite>sprites\Random_Block</sprite>
     <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\Spiral_block</sprite>
     <sprite>sprites\Shipy_block</sprite>
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\Hero_Dead</sprite>
@@ -33,19 +34,11 @@
     </sprites>
     <sprite>sprites\Lose</sprite>
     <sprite>sprites\sprite26</sprite>
-    <sprites name="Spiral">
-      <sprite>sprites\Spiral_block</sprite>
-      <sprite>sprites\Spiral_Jump</sprite>
-    </sprites>
-    <sprite>sprites\sprite27</sprite>
-    <sprite>sprites\sprite28</sprite>
-    <sprite>sprites\Background</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
-  <fonts name="fonts">
-    <font>fonts\font0</font>
-  </fonts>
   <objects name="objects">
     <objects name="Menu">
       <objects name="Buttons">
@@ -78,12 +71,11 @@
       <object>objects\Hero</object>
       <object>objects\Hero_Die_Anim</object>
       <object>objects\Guy_health</object>
+      <object>objects\Jump</object>
     </objects>
     <objects name="Game_Code">
       <object>objects\Game_start_end</object>
     </objects>
-    <object>objects\GameName</object>
-    <object>objects\Backg</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
