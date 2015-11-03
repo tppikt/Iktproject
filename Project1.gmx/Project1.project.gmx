@@ -23,13 +23,13 @@
       <sprite>sprites\Exit_B</sprite>
     </sprites>
     <sprite>sprites\Lose</sprite>
-    <sprite>sprites\sprite26</sprite>
     <sprites name="Spiral">
       <sprite>sprites\Spiral_block</sprite>
       <sprite>sprites\Spiral_Jump</sprite>
     </sprites>
     <sprite>sprites\sprite28</sprite>
     <sprite>sprites\Racketa</sprite>
+    <sprite>sprites\Boost_Rak</sprite>
     <sprite>sprites\Back_2</sprite>
     <sprite>sprites\BackDirt</sprite>
     <sprite>sprites\Mm</sprite>
@@ -39,6 +39,8 @@
       <sprite>sprites\min75</sprite>
       <sprite>sprites\sprite38</sprite>
     </sprites>
+    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\Rak_anim</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -79,10 +81,14 @@
     </objects>
     <object>objects\GameName</object>
     <object>objects\Backg</object>
-    <object>objects\Racket</object>
     <objects name="Backgrounds">
       <object>objects\Backglvl1</object>
       <object>objects\BirtLvl1</object>
+    </objects>
+    <objects name="Rak">
+      <object>objects\Podstavka</object>
+      <object>objects\Racket</object>
+      <object>objects\BR</object>
     </objects>
   </objects>
   <rooms name="rooms">
