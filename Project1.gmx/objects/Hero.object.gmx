@@ -228,6 +228,29 @@ y = yprevious;
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="Grass_Hide">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>{vspeed = -7}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="5" enumb="39">
       <action>
         <libid>1</libid>
@@ -245,8 +268,8 @@ y = yprevious;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_free(x+4,y)) { 
- x += 4;
+            <string>if (place_free(x+10,y)) { 
+ x += 10;
 }
 </string>
           </argument>
@@ -298,8 +321,8 @@ y = yprevious;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_free(x-4,y)) { 
- x -= 4;
+            <string>if (place_free(x-10,y)) { 
+ x -= 10;
 }
 </string>
           </argument>
