@@ -13,14 +13,15 @@
     <sprite>sprites\Invisible</sprite>
     <sprite>sprites\Brick_Block</sprite>
     <sprite>sprites\Random_Block</sprite>
-    <sprite>sprites\sprite9</sprite>
     <sprite>sprites\Shipy_block</sprite>
-    <sprite>sprites\sprite18</sprite>
     <sprite>sprites\sprite19</sprite>
     <sprites name="Button">
       <sprite>sprites\StartB</sprite>
       <sprite>sprites\Resume_B</sprite>
       <sprite>sprites\Exit_B</sprite>
+      <sprite>sprites\GTTM</sprite>
+      <sprite>sprites\NL</sprite>
+      <sprite>sprites\RL</sprite>
     </sprites>
     <sprite>sprites\Lose</sprite>
     <sprites name="Spiral">
@@ -28,19 +29,21 @@
       <sprite>sprites\Spiral_Jump</sprite>
     </sprites>
     <sprite>sprites\sprite28</sprite>
-    <sprite>sprites\Racketa</sprite>
-    <sprite>sprites\Boost_Rak</sprite>
     <sprite>sprites\Back_2</sprite>
     <sprite>sprites\BackDirt</sprite>
     <sprite>sprites\Mm</sprite>
     <sprites name="Grass_spr">
-      <sprite>sprites\min25</sprite>
-      <sprite>sprites\min50</sprite>
-      <sprite>sprites\min75</sprite>
       <sprite>sprites\sprite38</sprite>
     </sprites>
-    <sprite>sprites\sprite27</sprite>
-    <sprite>sprites\Rak_anim</sprite>
+    <sprite>sprites\Fin</sprite>
+    <sprites name="RAK">
+      <sprite>sprites\Boost_Rak</sprite>
+      <sprite>sprites\Racketa</sprite>
+      <sprite>sprites\Rak_anim</sprite>
+      <sprite>sprites\Rak_Comp</sprite>
+      <sprite>sprites\BR_Anim</sprite>
+      <sprite>sprites\sprite27</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -57,9 +60,6 @@
       <objects name="Text">
         <object>objects\LoseT</object>
       </objects>
-    </objects>
-    <objects name="Decor">
-      <object>objects\Dirt_Back</object>
     </objects>
     <objects name="Block">
       <object>objects\Grass_Hide</object>
@@ -79,8 +79,6 @@
     <objects name="Game_Code">
       <object>objects\Game_start_end</object>
     </objects>
-    <object>objects\GameName</object>
-    <object>objects\Backg</object>
     <objects name="Backgrounds">
       <object>objects\Backglvl1</object>
       <object>objects\BirtLvl1</object>
@@ -89,12 +87,21 @@
       <object>objects\Podstavka</object>
       <object>objects\Racket</object>
       <object>objects\BR</object>
+      <object>objects\RakComp_</object>
+      <object>objects\GOTTM</object>
+      <object>objects\NEXTLVL</object>
+      <object>objects\RESLV</object>
     </objects>
+    <object>objects\Finish</object>
+    <object>objects\GameName</object>
+    <object>objects\Backg</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
     <room>rooms\Died</room>
     <room>rooms\Level_1</room>
+    <room>rooms\Lvl1_Comp</room>
+    <room>rooms\Pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

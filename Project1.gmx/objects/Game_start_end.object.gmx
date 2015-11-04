@@ -119,7 +119,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>Main_Menu</room>
+            <room>Pause</room>
           </argument>
         </arguments>
       </action>
@@ -141,7 +141,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>100</string>
           </argument>
         </arguments>
       </action>

@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>0</colour>
+  <colour>128</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -51,10 +51,17 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Hero_Die_Anim" x="96" y="128" name="inst_8E9F838F" locked="0" code="" scaleX="0.439999997615814" scaleY="0.519999980926514" colour="4294967295" rotation="0"/>
-    <instance objName="Exit" x="448" y="416" name="inst_4AEC0943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LoseT" x="352" y="224" name="inst_544BEF50" locked="0" code="" scaleX="0.319999992847443" scaleY="0.256000012159348" colour="4294967295" rotation="0"/>
-    <instance objName="Start" x="384" y="384" name="inst_B07C44AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="0" y="0" name="inst_F5AD9932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="480" y="0" name="inst_7E2DDC34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="0" y="320" name="inst_EE90D7D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="480" y="320" name="inst_38567370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="0" y="640" name="inst_053D035D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="480" y="640" name="inst_5D41960E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="960" y="0" name="inst_4A4EFBB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="960" y="320" name="inst_5933F338" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Backg" x="960" y="640" name="inst_A11B4EE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GOTTM" x="558" y="544" name="inst_AD5A9C7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RESLV" x="64" y="544" name="inst_F7AC9710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="704" y="128" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_BAAE81C3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
