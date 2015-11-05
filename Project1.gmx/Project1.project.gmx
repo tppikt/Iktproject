@@ -44,6 +44,11 @@
       <sprite>sprites\BR_Anim</sprite>
       <sprite>sprites\sprite27</sprite>
     </sprites>
+    <sprite>sprites\Meteorit</sprite>
+    <sprite>sprites\oblako1</sprite>
+    <sprite>sprites\oblako3</sprite>
+    <sprite>sprites\oblako2</sprite>
+    <sprite>sprites\Bird</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -95,6 +100,11 @@
     <object>objects\Finish</object>
     <object>objects\GameName</object>
     <object>objects\Backg</object>
+    <object>objects\oblako_1</object>
+    <object>objects\oblako_2</object>
+    <object>objects\oblako_3</object>
+    <object>objects\meteorit1</object>
+    <object>objects\Ptichka</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
