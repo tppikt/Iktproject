@@ -14,6 +14,7 @@
       <sprite>sprites\Spr_Shipy_Block</sprite>
       <sprite>sprites\Spr_Dirt_Block</sprite>
       <sprite>sprites\Anim_Block_Crash</sprite>
+      <sprite>sprites\Bird_Starter</sprite>
     </sprites>
     <sprites name="Spr_Spiral">
       <sprite>sprites\Spr_Spiral_Block</sprite>
@@ -63,6 +64,7 @@
       <sprite>sprites\Spr_Sky2</sprite>
       <sprite>sprites\Spr_Sky3</sprite>
     </sprites>
+    <sprite>sprites\Spr_Bird2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -121,13 +123,15 @@
     <object>objects\oblako_2</object>
     <object>objects\oblako_3</object>
     <object>objects\meteorit1</object>
-    <object>objects\Ptichka</object>
+    <object>objects\Obj_Bird</object>
     <object>objects\Earth</object>
     <object>objects\obj_Black_Plat</object>
     <object>objects\Rakslom</object>
     <object>objects\Obl3_hig</object>
+    <object>objects\Obj_Bird_starter</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level_2</room>
     <rooms name="Menu">
       <room>rooms\Main_Menu</room>
     </rooms>
@@ -144,7 +148,6 @@
     </rooms>
     <rooms name="Levels">
       <room>rooms\Level_1</room>
-      <room>rooms\Level_2</room>
     </rooms>
     <rooms name="Compl">
       <room>rooms\Lvl1_Comp</room>
