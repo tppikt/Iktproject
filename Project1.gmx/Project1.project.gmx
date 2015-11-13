@@ -29,8 +29,9 @@
       <sprite>sprites\Spr_But_Rest_Lvl</sprite>
     </sprites>
     <sprites name="Spr_Hero">
-      <sprite>sprites\Spr_Hero_Right</sprite>
+      <sprite>sprites\Anim_Hero_Right</sprite>
       <sprite>sprites\Spr_Hero_Left</sprite>
+      <sprite>sprites\Anim_Hero_Idle</sprite>
     </sprites>
     <sprites name="Spr_HUD">
       <sprite>sprites\Spr_Health</sprite>
@@ -46,9 +47,11 @@
     </sprites>
     <sprites name="Spr_Rakets">
       <sprite>sprites\Spr_Green_Raket</sprite>
+      <sprite>sprites\Spr_Blue_Racket</sprite>
       <sprite>sprites\Spr_Red_Racket</sprite>
       <sprite>sprites\Spr_Racket_Lvl2</sprite>
       <sprite>sprites\Anim_Red_Racket</sprite>
+      <sprite>sprites\Anim_Blue_Racket</sprite>
       <sprite>sprites\Anim_Red_Racket_LvlComlit</sprite>
       <sprite>sprites\Anim_Green_Racket_MG1</sprite>
       <sprite>sprites\Anim_Green_Racket</sprite>
@@ -64,7 +67,6 @@
       <sprite>sprites\Spr_Sky2</sprite>
       <sprite>sprites\Spr_Sky3</sprite>
     </sprites>
-    <sprite>sprites\Spr_Bird2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -112,6 +114,7 @@
     <objects name="Rackets">
       <object>objects\Podstavka</object>
       <object>objects\Racket</object>
+      <object>objects\Obj_Blue_Racket</object>
       <object>objects\BR</object>
       <object>objects\RakComp_</object>
       <object>objects\BRMinig</object>
@@ -131,6 +134,7 @@
     <object>objects\Obj_Bird_starter</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level_1</room>
     <room>rooms\Level_2</room>
     <rooms name="Menu">
       <room>rooms\Main_Menu</room>
@@ -145,9 +149,6 @@
     <rooms name="Pause">
       <room>rooms\Pause</room>
       <room>rooms\PauseMG1</room>
-    </rooms>
-    <rooms name="Levels">
-      <room>rooms\Level_1</room>
     </rooms>
     <rooms name="Compl">
       <room>rooms\Lvl1_Comp</room>

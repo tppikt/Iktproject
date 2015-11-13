@@ -21,5 +21,6 @@
   <height>500</height>
   <frames>
     <frame index="0">images\Spr_Hero_Right_0.png</frame>
+    <frame index="1">images\Spr_Hero_Right_1.png</frame>
   </frames>
 </sprite>
