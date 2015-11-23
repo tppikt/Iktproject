@@ -10,11 +10,15 @@
       <sprite>sprites\Spr_Grass_Block</sprite>
       <sprite>sprites\Spr_Invis_Block</sprite>
       <sprite>sprites\Spr_Brick_Block</sprite>
-      <sprite>sprites\Spr_Random_Block</sprite>
       <sprite>sprites\Spr_Shipy_Block</sprite>
       <sprite>sprites\Spr_Dirt_Block</sprite>
       <sprite>sprites\Anim_Block_Crash</sprite>
       <sprite>sprites\Bird_Starter</sprite>
+      <sprite>sprites\Spr_Moon</sprite>
+      <sprite>sprites\Spr_Krator</sprite>
+      <sprite>sprites\Spr_Krator2</sprite>
+      <sprite>sprites\Obj_FireBall</sprite>
+      <sprite>sprites\sprite50</sprite>
     </sprites>
     <sprites name="Spr_Spiral">
       <sprite>sprites\Spr_Spiral_Block</sprite>
@@ -60,12 +64,13 @@
     <sprites name="Spr_More">
       <sprite>sprites\Spr_Meteor</sprite>
       <sprite>sprites\Spr_Sky_High</sprite>
-      <sprite>sprites\Spr_Sky_Low</sprite>
       <sprite>sprites\Spr_Black_Platform</sprite>
       <sprite>sprites\Spr_Eatrth</sprite>
+      <sprite>sprites\Spr_Sky_Low</sprite>
       <sprite>sprites\Spr_Bird</sprite>
       <sprite>sprites\Spr_Sky2</sprite>
       <sprite>sprites\Spr_Sky3</sprite>
+      <sprite>sprites\Spr_Sunduk</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -94,7 +99,6 @@
       <object>objects\Obj_Invis_Block</object>
       <object>objects\Obj_Grass_block</object>
       <object>objects\Obj_Brick_block</object>
-      <object>objects\Obj_Random_Block</object>
       <object>objects\Obj_Shipy_Block</object>
       <object>objects\Obj_Spiral_Block</object>
     </objects>
@@ -132,10 +136,14 @@
     <object>objects\Rakslom</object>
     <object>objects\Obl3_hig</object>
     <object>objects\Obj_Bird_starter</object>
+    <object>objects\Obj_Moon</object>
+    <object>objects\Spr_Krator_1</object>
+    <object>objects\Spr_Krator_2</object>
+    <object>objects\Obj_Chest</object>
+    <object>objects\Obj_FireBalll</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level_1</room>
-    <room>rooms\Level_2</room>
+    <room>rooms\Level_3</room>
     <rooms name="Menu">
       <room>rooms\Main_Menu</room>
     </rooms>
@@ -152,6 +160,10 @@
     </rooms>
     <rooms name="Compl">
       <room>rooms\Lvl1_Comp</room>
+    </rooms>
+    <rooms name="Levels">
+      <room>rooms\Level_1</room>
+      <room>rooms\Level_2</room>
     </rooms>
   </rooms>
   <help>

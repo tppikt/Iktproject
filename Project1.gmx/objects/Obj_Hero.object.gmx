@@ -484,9 +484,7 @@ image_speed = 0.015
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>{
-
-image_speed = 0.015
+            <string>image_speed = 0.015
 </string>
           </argument>
         </arguments>
