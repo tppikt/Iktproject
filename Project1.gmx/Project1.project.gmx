@@ -18,7 +18,9 @@
       <sprite>sprites\Spr_Krator</sprite>
       <sprite>sprites\Spr_Krator2</sprite>
       <sprite>sprites\Obj_FireBall</sprite>
-      <sprite>sprites\sprite50</sprite>
+      <sprite>sprites\Anim_Chest</sprite>
+      <sprite>sprites\Spr_Chest_Open</sprite>
+      <sprite>sprites\Spr_Chest_Close</sprite>
     </sprites>
     <sprites name="Spr_Spiral">
       <sprite>sprites\Spr_Spiral_Block</sprite>
@@ -42,6 +44,7 @@
       <sprite>sprites\Spr_Text_Lose</sprite>
       <sprite>sprites\Spr_Game_Name</sprite>
       <sprite>sprites\Spr_Finish</sprite>
+      <sprite>sprites\Spr_Finish_MG1</sprite>
     </sprites>
     <sprites name="Spr_Backgrounds">
       <sprite>sprites\Spr_Back_Lvl1</sprite>
@@ -72,6 +75,7 @@
       <sprite>sprites\Spr_Sky3</sprite>
       <sprite>sprites\Spr_Sunduk</sprite>
     </sprites>
+    <sprite>sprites\Spr_Pause_Lvl1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -85,9 +89,10 @@
         <object>objects\Obj_But_Resume</object>
         <object>objects\Obj_But_Quit</object>
         <object>objects\Obj_But_GoMenu</object>
-        <object>objects\Obj_But_Rest_Lvl</object>
-        <object>objects\Obj_But_Rest_LvlRest</object>
-        <object>objects\Obj_But_Next_Lvl</object>
+        <object>objects\Obj_But_Rest_Lvl1</object>
+        <object>objects\Obj_But_Rest_Lvl2</object>
+        <object>objects\Obj_But_Rest_MG1</object>
+        <object>objects\Obj_But_Next_Lvl1_2</object>
       </objects>
       <objects name="Text">
         <object>objects\Obj_Text_Lose</object>
@@ -100,6 +105,7 @@
       <object>objects\Obj_Grass_block</object>
       <object>objects\Obj_Brick_block</object>
       <object>objects\Obj_Shipy_Block</object>
+      <object>objects\Die</object>
       <object>objects\Obj_Spiral_Block</object>
     </objects>
     <objects name="Hero">
@@ -124,6 +130,7 @@
       <object>objects\BRMinig</object>
     </objects>
     <object>objects\Obj_Finish</object>
+    <object>objects\Obj_Finish_Mg1</object>
     <object>objects\Obj_Game_Name</object>
     <object>objects\Obj_Backg</object>
     <object>objects\oblako_1</object>
@@ -141,9 +148,9 @@
     <object>objects\Spr_Krator_2</object>
     <object>objects\Obj_Chest</object>
     <object>objects\Obj_FireBalll</object>
+    <object>objects\Obj_Pause_Lvl1</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level_3</room>
     <rooms name="Menu">
       <room>rooms\Main_Menu</room>
     </rooms>
@@ -152,6 +159,7 @@
     </rooms>
     <rooms name="Died Rooms">
       <room>rooms\Died</room>
+      <room>rooms\Died_Lvl2</room>
       <room>rooms\Died_MG1</room>
     </rooms>
     <rooms name="Pause">
@@ -164,6 +172,7 @@
     <rooms name="Levels">
       <room>rooms\Level_1</room>
       <room>rooms\Level_2</room>
+      <room>rooms\Level_3</room>
     </rooms>
   </rooms>
   <help>

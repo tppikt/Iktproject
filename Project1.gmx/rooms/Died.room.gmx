@@ -51,18 +51,10 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Obj_Backg" x="0" y="0" name="inst_38521A49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="480" y="0" name="inst_C877FCD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="0" y="320" name="inst_EF989533" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="480" y="320" name="inst_55734A0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="0" y="640" name="inst_ACEB0449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="480" y="640" name="inst_9C40229E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="960" y="0" name="inst_0E78068D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="960" y="320" name="inst_EBFB01D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Backg" x="960" y="640" name="inst_CEEDC3B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_But_Rest_LvlRest" x="64" y="480" name="inst_073ABCEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_But_GoMenu" x="544" y="480" name="inst_7AB67F78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Text_Lose" x="160" y="96" name="inst_7F7D91FD" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Pause_Lvl1" x="-32" y="-32" name="inst_D90DEE69" locked="0" code="" scaleX="1.72000002861023" scaleY="2.03921580314636" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Text_Lose" x="138" y="96" name="inst_4D0E891A" locked="0" code="" scaleX="0.469333320856094" scaleY="0.448000013828278" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_But_Rest_Lvl" x="64" y="448" name="inst_BFA3A220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_But_GoMenu" x="544" y="448" name="inst_A3F1EEE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="704" y="128" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_BAAE81C3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
