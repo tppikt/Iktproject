@@ -6,11 +6,175 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite</sprite>
-    <sprite>sprites\sprite1</sprite>
+    <sprites name="Spr_Blocks">
+      <sprite>sprites\Spr_Grass_Block</sprite>
+      <sprite>sprites\Spr_Invis_Block</sprite>
+      <sprite>sprites\Spr_Brick_Block</sprite>
+      <sprite>sprites\Spr_Shipy_Block</sprite>
+      <sprite>sprites\Spr_Dirt_Block</sprite>
+      <sprite>sprites\Anim_Block_Crash</sprite>
+      <sprite>sprites\Bird_Starter</sprite>
+      <sprite>sprites\Spr_Moon</sprite>
+      <sprite>sprites\Spr_Krator</sprite>
+      <sprite>sprites\Spr_Krator2</sprite>
+      <sprite>sprites\Obj_FireBall</sprite>
+      <sprite>sprites\Anim_Chest</sprite>
+      <sprite>sprites\Spr_Chest_Open</sprite>
+      <sprite>sprites\Spr_Chest_Close</sprite>
+    </sprites>
+    <sprites name="Spr_Spiral">
+      <sprite>sprites\Spr_Spiral_Block</sprite>
+      <sprite>sprites\Anim_Spiral</sprite>
+    </sprites>
+    <sprites name="Spr_Button">
+      <sprite>sprites\Spr_But_Start</sprite>
+      <sprite>sprites\Spr_But_Resume</sprite>
+      <sprite>sprites\Spr_But_Quit</sprite>
+      <sprite>sprites\Spr_But_GoMenu</sprite>
+      <sprite>sprites\Spr_But_Next_Lvl</sprite>
+      <sprite>sprites\Spr_But_Rest_Lvl</sprite>
+    </sprites>
+    <sprites name="Spr_Hero">
+      <sprite>sprites\Anim_Hero_Right</sprite>
+      <sprite>sprites\Spr_Hero_Left</sprite>
+      <sprite>sprites\Anim_Hero_Idle</sprite>
+    </sprites>
+    <sprites name="Spr_HUD">
+      <sprite>sprites\Spr_Health</sprite>
+      <sprite>sprites\Spr_Text_Lose</sprite>
+      <sprite>sprites\Spr_Game_Name</sprite>
+      <sprite>sprites\Spr_Finish</sprite>
+      <sprite>sprites\Spr_Finish_MG1</sprite>
+    </sprites>
+    <sprites name="Spr_Backgrounds">
+      <sprite>sprites\Spr_Back_Lvl1</sprite>
+      <sprite>sprites\Spr_Back_Dirt_Lvl1</sprite>
+      <sprite>sprites\Spr_Back_Anim</sprite>
+      <sprite>sprites\Spr_Back_Lvl2</sprite>
+    </sprites>
+    <sprites name="Spr_Rakets">
+      <sprite>sprites\Spr_Green_Raket</sprite>
+      <sprite>sprites\Spr_Blue_Racket</sprite>
+      <sprite>sprites\Spr_Red_Racket</sprite>
+      <sprite>sprites\Spr_Racket_Lvl2</sprite>
+      <sprite>sprites\Anim_Red_Racket</sprite>
+      <sprite>sprites\Anim_Blue_Racket</sprite>
+      <sprite>sprites\Anim_Red_Racket_LvlComlit</sprite>
+      <sprite>sprites\Anim_Green_Racket_MG1</sprite>
+      <sprite>sprites\Anim_Green_Racket</sprite>
+      <sprite>sprites\Spr_Racket_Start</sprite>
+    </sprites>
+    <sprites name="Spr_More">
+      <sprite>sprites\Spr_Meteor</sprite>
+      <sprite>sprites\Spr_Sky_High</sprite>
+      <sprite>sprites\Spr_Black_Platform</sprite>
+      <sprite>sprites\Spr_Eatrth</sprite>
+      <sprite>sprites\Spr_Sky_Low</sprite>
+      <sprite>sprites\Spr_Bird</sprite>
+      <sprite>sprites\Spr_Sky2</sprite>
+      <sprite>sprites\Spr_Sky3</sprite>
+      <sprite>sprites\Spr_Sunduk</sprite>
+    </sprites>
+    <sprite>sprites\Spr_Pause_Lvl1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="Menu">
+      <objects name="Buttons">
+        <object>objects\Obj_But_Start</object>
+        <object>objects\Obj_But_Resume</object>
+        <object>objects\Obj_But_Quit</object>
+        <object>objects\Obj_But_GoMenu</object>
+        <object>objects\Obj_But_Rest_Lvl1</object>
+        <object>objects\Obj_But_Rest_Lvl2</object>
+        <object>objects\Obj_But_Rest_MG1</object>
+        <object>objects\Obj_But_Next_Lvl1_2</object>
+      </objects>
+      <objects name="Text">
+        <object>objects\Obj_Text_Lose</object>
+      </objects>
+    </objects>
+    <objects name="Block">
+      <object>objects\Obj_Grass_Hide</object>
+      <object>objects\Obj_Dirt</object>
+      <object>objects\Obj_Invis_Block</object>
+      <object>objects\Obj_Grass_block</object>
+      <object>objects\Obj_Brick_block</object>
+      <object>objects\Obj_Shipy_Block</object>
+      <object>objects\Die</object>
+      <object>objects\Obj_Spiral_Block</object>
+    </objects>
+    <objects name="Hero">
+      <object>objects\Obj_Hero</object>
+      <object>objects\Code_HeroHealth</object>
+    </objects>
+    <objects name="Game_Code">
+      <object>objects\Code_Pause</object>
+      <object>objects\Code_Pause_MG1</object>
+    </objects>
+    <objects name="Backgrounds">
+      <object>objects\Obj_Back_lvl1</object>
+      <object>objects\Obj_Back_Dirt_Lvl1</object>
+      <object>objects\Obj_Back_Lvl2</object>
+    </objects>
+    <objects name="Rackets">
+      <object>objects\Podstavka</object>
+      <object>objects\Racket</object>
+      <object>objects\Obj_Blue_Racket</object>
+      <object>objects\BR</object>
+      <object>objects\RakComp_</object>
+      <object>objects\BRMinig</object>
+    </objects>
+    <object>objects\Obj_Finish</object>
+    <object>objects\Obj_Finish_Mg1</object>
+    <object>objects\Obj_Game_Name</object>
+    <object>objects\Obj_Backg</object>
+    <object>objects\oblako_1</object>
+    <object>objects\oblako_2</object>
+    <object>objects\oblako_3</object>
+    <object>objects\meteorit1</object>
+    <object>objects\Obj_Bird</object>
+    <object>objects\Earth</object>
+    <object>objects\obj_Black_Plat</object>
+    <object>objects\Rakslom</object>
+    <object>objects\Obl3_hig</object>
+    <object>objects\Obj_Bird_starter</object>
+    <object>objects\Obj_Moon</object>
+    <object>objects\Spr_Krator_1</object>
+    <object>objects\Spr_Krator_2</object>
+    <object>objects\Obj_Chest</object>
+    <object>objects\Obj_FireBalll</object>
+    <object>objects\Obj_Pause_Lvl1</object>
+  </objects>
+  <rooms name="rooms">
+    <rooms name="Menu">
+      <room>rooms\Main_Menu</room>
+    </rooms>
+    <rooms name="Minigames">
+      <room>rooms\Minigame1</room>
+    </rooms>
+    <rooms name="Died Rooms">
+      <room>rooms\Died</room>
+      <room>rooms\Died_Lvl2</room>
+      <room>rooms\Died_MG1</room>
+    </rooms>
+    <rooms name="Pause">
+      <room>rooms\Pause</room>
+      <room>rooms\PauseMG1</room>
+    </rooms>
+    <rooms name="Compl">
+      <room>rooms\Lvl1_Comp</room>
+    </rooms>
+    <rooms name="Levels">
+      <room>rooms\Level_1</room>
+      <room>rooms\Level_2</room>
+      <room>rooms\Level_3</room>
+    </rooms>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
